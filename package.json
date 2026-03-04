@@ -1,0 +1,12 @@
+{
+  "name": "mass-file-processor",
+  "version": "1.0.0",
+  "description": "Um manipulador de arquivos em massa com função de desfazer.",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup-test.js",
+    "rename": "node index.js --rename",
+    "undo": "node index.js --undo"
+  },
+  "author": "Laura Gularte"
+}
